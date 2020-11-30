@@ -1,0 +1,34 @@
+[
+  {
+    "MaSo": 1,
+    "TenLoaiHang": "Sữa chua"
+  },
+  {
+    "MaSo": 2,
+    "TenLoaiHang": "Sữa tươi"
+  },
+  {
+    "MaSo": 3,
+    "TenLoaiHang": "Sữa đặc"
+  },
+  {
+    "MaSo": 4,
+    "TenLoaiHang": "Sữa bột"
+  },
+  {
+    "MaSo": 5,
+    "TenLoaiHang": "Phô mai"
+  },
+  {
+    "MaSo": 6,
+    "TenLoaiHang": "Tã bỉm"
+  },
+  {
+    "MaSo": 8,
+    "TenLoaiHang": "Bột ăn dặm"
+  },
+  {
+    "MaSo": 9,
+    "TenLoaiHang": "Thức ăn"
+  }
+]

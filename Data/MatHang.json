@@ -1,0 +1,106 @@
+[
+  {
+    "MaSo": 1,
+    "TenMatHang": "Sữa chua dâu Vinamilk",
+    "HanDung": "2021-12-01T00:00:00",
+    "CongTySanXuat": "Vinamilk",
+    "NamSanXuat": 2019,
+    "LoaiHang": "Sữa chua"
+  },
+  {
+    "MaSo": 3,
+    "TenMatHang": "Sữa tươi Cô Gái Hà Lan",
+    "HanDung": "2023-07-21T00:00:00",
+    "CongTySanXuat": "Dutch Lady",
+    "NamSanXuat": 2020,
+    "LoaiHang": "Sữa tươi"
+  },
+  {
+    "MaSo": 4,
+    "TenMatHang": "Sữa bò Long Thành",
+    "HanDung": "2019-06-15T00:00:00",
+    "CongTySanXuat": "LOTHAMILK",
+    "NamSanXuat": 2018,
+    "LoaiHang": "Sữa tươi"
+  },
+  {
+    "MaSo": 5,
+    "TenMatHang": "Sữa đặc Ông Thọ",
+    "HanDung": "2019-06-10T00:00:00",
+    "CongTySanXuat": "Vinamilk",
+    "NamSanXuat": 2017,
+    "LoaiHang": "Sữa đặc"
+  },
+  {
+    "MaSo": 7,
+    "TenMatHang": "Sữa bột Anlene Gold",
+    "HanDung": "2023-04-05T00:00:00",
+    "CongTySanXuat": "Fonterra",
+    "NamSanXuat": 2020,
+    "LoaiHang": "Sữa bột"
+  },
+  {
+    "MaSo": 8,
+    "TenMatHang": "Phô mai Con Bò Cười",
+    "HanDung": "2014-08-06T00:00:00",
+    "CongTySanXuat": "Bel VietNam",
+    "NamSanXuat": 2013,
+    "LoaiHang": "Phô mai"
+  },
+  {
+    "MaSo": 10,
+    "TenMatHang": "Sữa bột Ensure Gold",
+    "HanDung": "2022-08-20T00:00:00",
+    "CongTySanXuat": "Abbott ",
+    "NamSanXuat": 2020,
+    "LoaiHang": "Sữa bột"
+  },
+  {
+    "MaSo": 11,
+    "TenMatHang": "Tã quần Bobby Siêu Thấm",
+    "HanDung": "2025-10-08T00:00:00",
+    "CongTySanXuat": "Bobby Nhật Bản",
+    "NamSanXuat": 2020,
+    "LoaiHang": "Tã bỉm"
+  },
+  {
+    "MaSo": 12,
+    "TenMatHang": "Tã dán Merries",
+    "HanDung": "2026-12-20T00:00:00",
+    "CongTySanXuat": "Merries",
+    "NamSanXuat": 2020,
+    "LoaiHang": "Tã bỉm"
+  },
+  {
+    "MaSo": 13,
+    "TenMatHang": "Tã em bé Beloved",
+    "HanDung": "2022-10-30T00:00:00",
+    "CongTySanXuat": "Beloved",
+    "NamSanXuat": 2018,
+    "LoaiHang": "Tã bỉm"
+  },
+  {
+    "MaSo": 14,
+    "TenMatHang": "Bột ăn dặm Gerber",
+    "HanDung": "2021-12-25T00:00:00",
+    "CongTySanXuat": "Gerber",
+    "NamSanXuat": 2019,
+    "LoaiHang": "Bột ăn dặm"
+  },
+  {
+    "MaSo": 15,
+    "TenMatHang": "Bột ăn dặm HiPP",
+    "HanDung": "2023-02-18T00:00:00",
+    "CongTySanXuat": "HiPP Đức",
+    "NamSanXuat": 2018,
+    "LoaiHang": "Bột ăn dặm"
+  },
+  {
+    "MaSo": 16,
+    "TenMatHang": "Sữa chua Probi ",
+    "HanDung": "2023-11-21T00:00:00",
+    "CongTySanXuat": "Vinamilk ",
+    "NamSanXuat": 2020,
+    "LoaiHang": "Sữa chua"
+  }
+]

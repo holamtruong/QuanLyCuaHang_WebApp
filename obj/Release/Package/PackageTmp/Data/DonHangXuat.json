@@ -1,0 +1,80 @@
+[
+  {
+    "MaDonHang": 1,
+    "MatHang": {
+      "MaSo": 1,
+      "TenMatHang": "Sữa chua dâu Vinamilk",
+      "HanDung": "2021-12-01T00:00:00",
+      "CongTySanXuat": "Vinamilk",
+      "NamSanXuat": 2019,
+      "LoaiHang": "Sữa chua"
+    },
+    "SoLuong": 2,
+    "NgayBan": "2020-11-25T21:02:11"
+  },
+  {
+    "MaDonHang": 2,
+    "MatHang": {
+      "MaSo": 1,
+      "TenMatHang": "Sữa chua dâu Vinamilk",
+      "HanDung": "2021-12-01T00:00:00",
+      "CongTySanXuat": "Vinamilk",
+      "NamSanXuat": 2019,
+      "LoaiHang": "Sữa chua"
+    },
+    "SoLuong": 1,
+    "NgayBan": "2020-11-25T21:02:20"
+  },
+  {
+    "MaDonHang": 3,
+    "MatHang": {
+      "MaSo": 3,
+      "TenMatHang": "Sữa tươi Cô Gái Hà Lan",
+      "HanDung": "2023-07-21T00:00:00",
+      "CongTySanXuat": "Dutch Lady",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Sữa tươi"
+    },
+    "SoLuong": 3,
+    "NgayBan": "2020-11-25T21:02:24"
+  },
+  {
+    "MaDonHang": 4,
+    "MatHang": {
+      "MaSo": 5,
+      "TenMatHang": "Sữa đặc Ông Thọ",
+      "HanDung": "2019-06-10T00:00:00",
+      "CongTySanXuat": "Vinamilk",
+      "NamSanXuat": 2017,
+      "LoaiHang": "Sữa đặc"
+    },
+    "SoLuong": 3,
+    "NgayBan": "2020-11-25T21:02:28"
+  },
+  {
+    "MaDonHang": 5,
+    "MatHang": {
+      "MaSo": 7,
+      "TenMatHang": "Sữa bột Anlene Gold",
+      "HanDung": "2023-04-05T00:00:00",
+      "CongTySanXuat": "Fonterra",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Sữa bột"
+    },
+    "SoLuong": 1,
+    "NgayBan": "2020-11-25T21:02:34"
+  },
+  {
+    "MaDonHang": 6,
+    "MatHang": {
+      "MaSo": 8,
+      "TenMatHang": "Phô mai Con Bò Cười",
+      "HanDung": "2014-08-06T00:00:00",
+      "CongTySanXuat": "Bel VietNam",
+      "NamSanXuat": 2013,
+      "LoaiHang": "Phô mai"
+    },
+    "SoLuong": 3,
+    "NgayBan": "2020-11-25T21:02:40"
+  }
+]

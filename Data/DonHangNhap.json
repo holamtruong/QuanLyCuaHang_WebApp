@@ -1,0 +1,223 @@
+[
+  {
+    "MaDonHang": 1,
+    "MatHang": {
+      "MaSo": 1,
+      "TenMatHang": "Sữa chua dâu Vinamilk",
+      "HanDung": "2021-12-01T00:00:00",
+      "CongTySanXuat": "Vinamilk",
+      "NamSanXuat": 2019,
+      "LoaiHang": "Sữa chua"
+    },
+    "SoLuong": 1500,
+    "NgayNhap": "2020-11-25T20:56:19"
+  },
+  {
+    "MaDonHang": 2,
+    "MatHang": {
+      "MaSo": 3,
+      "TenMatHang": "Sữa tươi Cô Gái Hà Lan",
+      "HanDung": "2023-07-21T00:00:00",
+      "CongTySanXuat": "Dutch Lady",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Sữa tươi"
+    },
+    "SoLuong": 1100,
+    "NgayNhap": "2020-11-25T20:56:53"
+  },
+  {
+    "MaDonHang": 3,
+    "MatHang": {
+      "MaSo": 4,
+      "TenMatHang": "Sữa bò Long Thành",
+      "HanDung": "2021-06-15T00:00:00",
+      "CongTySanXuat": "LOTHAMILK",
+      "NamSanXuat": 2018,
+      "LoaiHang": "Sữa tươi"
+    },
+    "SoLuong": 350,
+    "NgayNhap": "2020-11-25T20:57:02"
+  },
+  {
+    "MaDonHang": 4,
+    "MatHang": {
+      "MaSo": 5,
+      "TenMatHang": "Sữa đặc Ông Thọ",
+      "HanDung": "2019-06-10T00:00:00",
+      "CongTySanXuat": "Vinamilk",
+      "NamSanXuat": 2017,
+      "LoaiHang": "Sữa đặc"
+    },
+    "SoLuong": 1500,
+    "NgayNhap": "2020-11-25T20:57:12"
+  },
+  {
+    "MaDonHang": 5,
+    "MatHang": {
+      "MaSo": 7,
+      "TenMatHang": "Sữa bột Anlene Gold",
+      "HanDung": "2023-04-05T00:00:00",
+      "CongTySanXuat": "Fonterra",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Sữa bột"
+    },
+    "SoLuong": 250,
+    "NgayNhap": "2020-11-25T20:57:20"
+  },
+  {
+    "MaDonHang": 6,
+    "MatHang": {
+      "MaSo": 7,
+      "TenMatHang": "Sữa bột Anlene Gold",
+      "HanDung": "2023-04-05T00:00:00",
+      "CongTySanXuat": "Fonterra",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Sữa bột"
+    },
+    "SoLuong": 180,
+    "NgayNhap": "2020-11-25T20:57:30"
+  },
+  {
+    "MaDonHang": 7,
+    "MatHang": {
+      "MaSo": 14,
+      "TenMatHang": "Bột ăn dặm Gerber",
+      "HanDung": "2021-12-25T00:00:00",
+      "CongTySanXuat": "Gerber",
+      "NamSanXuat": 2019,
+      "LoaiHang": "Bột ăn dặm"
+    },
+    "SoLuong": 230,
+    "NgayNhap": "2020-11-30T00:50:49"
+  },
+  {
+    "MaDonHang": 8,
+    "MatHang": {
+      "MaSo": 8,
+      "TenMatHang": "Phô mai Con Bò Cười",
+      "HanDung": "2014-08-06T00:00:00",
+      "CongTySanXuat": "Bel VietNam",
+      "NamSanXuat": 2013,
+      "LoaiHang": "Phô mai"
+    },
+    "SoLuong": 260,
+    "NgayNhap": "2020-11-30T00:51:02"
+  },
+  {
+    "MaDonHang": 9,
+    "MatHang": {
+      "MaSo": 12,
+      "TenMatHang": "Tã dán Merries",
+      "HanDung": "2026-12-20T00:00:00",
+      "CongTySanXuat": "Merries",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Tã bỉm"
+    },
+    "SoLuong": 180,
+    "NgayNhap": "2020-11-30T01:15:29"
+  },
+  {
+    "MaDonHang": 10,
+    "MatHang": {
+      "MaSo": 10,
+      "TenMatHang": "Sữa bột Ensure Gold",
+      "HanDung": "2022-08-20T00:00:00",
+      "CongTySanXuat": "Abbott ",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Sữa bột"
+    },
+    "SoLuong": 300,
+    "NgayNhap": "2020-11-30T01:44:03"
+  },
+  {
+    "MaDonHang": 11,
+    "MatHang": {
+      "MaSo": 12,
+      "TenMatHang": "Tã dán Merries",
+      "HanDung": "2026-12-20T00:00:00",
+      "CongTySanXuat": "Merries",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Tã bỉm"
+    },
+    "SoLuong": 2000,
+    "NgayNhap": "2020-11-30T01:44:46"
+  },
+  {
+    "MaDonHang": 12,
+    "MatHang": {
+      "MaSo": 13,
+      "TenMatHang": "Tã em bé Beloved",
+      "HanDung": "2022-10-30T00:00:00",
+      "CongTySanXuat": "Beloved",
+      "NamSanXuat": 2018,
+      "LoaiHang": "Tã bỉm"
+    },
+    "SoLuong": 380,
+    "NgayNhap": "2020-11-30T01:44:53"
+  },
+  {
+    "MaDonHang": 13,
+    "MatHang": {
+      "MaSo": 16,
+      "TenMatHang": "Sữa chua Probi ",
+      "HanDung": "2023-11-21T00:00:00",
+      "CongTySanXuat": "Vinamilk ",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Sữa chua"
+    },
+    "SoLuong": 90,
+    "NgayNhap": "2020-11-30T01:45:07"
+  },
+  {
+    "MaDonHang": 14,
+    "MatHang": {
+      "MaSo": 11,
+      "TenMatHang": "Tã quần Bobby Siêu Thấm",
+      "HanDung": "2025-10-08T00:00:00",
+      "CongTySanXuat": "Bobby Nhật Bản",
+      "NamSanXuat": 2020,
+      "LoaiHang": "Tã bỉm"
+    },
+    "SoLuong": 200,
+    "NgayNhap": "2020-11-30T01:45:41"
+  },
+  {
+    "MaDonHang": 15,
+    "MatHang": {
+      "MaSo": 15,
+      "TenMatHang": "Bột ăn dặm HiPP",
+      "HanDung": "2023-02-18T00:00:00",
+      "CongTySanXuat": "HiPP Đức",
+      "NamSanXuat": 2018,
+      "LoaiHang": "Bột ăn dặm"
+    },
+    "SoLuong": 270,
+    "NgayNhap": "2020-11-30T01:46:02"
+  },
+  {
+    "MaDonHang": 16,
+    "MatHang": {
+      "MaSo": 15,
+      "TenMatHang": "Bột ăn dặm HiPP",
+      "HanDung": "2023-02-18T00:00:00",
+      "CongTySanXuat": "HiPP Đức",
+      "NamSanXuat": 2018,
+      "LoaiHang": "Bột ăn dặm"
+    },
+    "SoLuong": 370,
+    "NgayNhap": "2020-11-30T02:55:56"
+  },
+  {
+    "MaDonHang": 17,
+    "MatHang": {
+      "MaSo": 13,
+      "TenMatHang": "Tã em bé Beloved",
+      "HanDung": "2022-10-30T00:00:00",
+      "CongTySanXuat": "Beloved",
+      "NamSanXuat": 2018,
+      "LoaiHang": "Tã bỉm"
+    },
+    "SoLuong": 150,
+    "NgayNhap": "2020-11-30T08:17:31"
+  }
+]

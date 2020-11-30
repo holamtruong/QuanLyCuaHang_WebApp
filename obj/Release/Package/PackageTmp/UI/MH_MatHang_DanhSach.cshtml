@@ -1,0 +1,179 @@
+﻿@using QuanLyCuaHang_WebApp;
+@{
+    Layout = "~/UI/_Layout_Dashboard.cshtml";
+    Page.Title = "Quản lý cửa hàng";
+
+    List<MatHang> ds = new List<MatHang>();
+ 
+    var TuKhoa = String.Empty;
+    ds = XL_MatHang.TimKiemDanhSach(TuKhoa);
+   
+    if (IsPost)
+    {
+        TuKhoa = Request["tuKhoa"].Trim();
+        ds = XL_MatHang.TimKiemDanhSach(TuKhoa);
+    }
+
+
+
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Menu Sidebar-->
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3  mb-1 text-muted">
+                        <span>Quản lý chung</span>
+                    </h6>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="~/UI/MH_MatHang_DanhSach.cshtml">
+                                <span data-feather="shopping-cart"></span>
+                                Mặt hàng
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/UI/MH_LoaiHang_DanhSach.cshtml">
+                                <span data-feather="grid"></span>
+                                Loại hàng
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/UI/MH_DonHangXuat_DanhSach.cshtml">
+                                <span data-feather="file"></span>
+                                Hóa đơn bán
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/UI/MH_DonHangNhap_DanhSach.cshtml">
+                                <span data-feather="file"></span>
+                                Hóa đơn nhập
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Thống kê</span>
+                    </h6>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/UI/MH_ThongKe_TonKho.cshtml">
+                                <span data-feather="file-text"></span>
+                                Hàng tồn kho
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/UI/MH_ThongKe_HetHan.cshtml">
+                                <span data-feather="file-text"></span>
+                                Hàng hết hạn
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Liên hệ</span>
+                    </h6>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/UI/MH_LienHe.cshtml">
+                                <span data-feather="user"></span>
+                               Tác giả
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+
+            <!-- Content -->
+            <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h3">Mặt hàng</h1>
+                    <!-- breadcrumb -->
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" aria-current="page">Danh sách dữ liệu</li>
+                        </ol>
+                    </nav>
+                </div>
+
+                <!-- Them -->
+                <div class="input-group mb-3">
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='MH_MatHang_Them.cshtml'"> <span data-feather="plus-circle"></span> Thêm mới </button>
+                </div>
+
+
+                <!-- Tim kiem  -->
+                <form action="~/UI/MH_MatHang_DanhSach.cshtml" method="post">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" name="tuKhoa" placeholder="Tìm kiếm mặt hàng">
+                        <button class="btn btn-primary" type="submit" name="btn_timkiem"> <span data-feather="search"></span></button>
+                    </div>
+                </form>
+             
+
+                <!-- Danh sach du lieu -->
+                <h4>Danh sách dữ liệu</h4>
+                <div class="table-responsive">
+                    <table class="table table-striped table-sm">
+                        <thead>
+                            <tr>
+                                <th>Mã số</th>
+                                <th>Tên mặt hàng</th>
+                                <th>Hạn dùng</th>
+                                <th>Công ty sản xuất</th>
+                                <th>Năm sản xuất</th>
+                                <th>Loại hàng</th>
+                                <th>Tác vụ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var x in ds)
+                            {
+                                <tr>
+                                    <td>@x.MaSo</td>
+                                    <td>@x.TenMatHang</td>
+                                    <td>@x.HanDung.ToString("yyyy-MM-dd")</td>
+                                    <td>@x.CongTySanXuat</td>
+                                    <td>@x.NamSanXuat</td>
+                                    <td>@x.LoaiHang</td>
+                                    <td>
+                                        <button class="btn btn-primary btn-sm" type="button" onclick="window.location.href='MH_MatHang_Sua.cshtml?maso=@x.MaSo'">
+                                            <span data-feather="edit"></span>
+                                        </button>
+                                        <button class="btn btn-primary btn-sm" type="button" onclick="window.location.href='MH_MatHang_Xoa.cshtml?maso=@x.MaSo'">
+                                            <span data-feather="trash-2"></span>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+
+
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
